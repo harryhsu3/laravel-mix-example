@@ -1,0 +1,27 @@
+{
+  "name": "laravel-mix-example",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.1",
+    "jquery": "^3.6.0",
+    "laravel-mix": "^6.0.19",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "postcss": "^8.3.0",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.32.11",
+    "sass-loader": "^11.1.1"
+  }
+}
